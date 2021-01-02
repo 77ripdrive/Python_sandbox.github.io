@@ -3,7 +3,7 @@
 ## Зависимости
 
 ```sh
-pip3 install - -user poetry
+pip3 install --user poetry
 ```
 
 ### или для Windows
