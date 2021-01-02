@@ -1,2 +1,3 @@
-one,address15
-25,10
+productId,productName,price,tags
+2, apple, 25.6, green
+3, banana, 30, grey

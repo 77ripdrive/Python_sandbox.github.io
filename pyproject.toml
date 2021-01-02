@@ -9,6 +9,7 @@ python = "^3.9"
 pytest = "^6.2.1"
 requests = "^2.25.1"
 jsonschema = "^3.2.0"
+pytest-bdd = "^4.0.2"
 
 [tool.poetry.dev-dependencies]
 
