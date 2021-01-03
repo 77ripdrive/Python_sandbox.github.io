@@ -1,18 +1,18 @@
-Пример инициализации Python-проекта
+## An example of initializing a Python project from scratch
 
-## Зависимости
+### Dependencies
 
 ```sh
 pip3 install --user poetry
 ```
 
-### или для Windows
+#### for Windows
 
 ```sh
 (Invoke-WebRequest -Uri https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py -UseBasicParsing).Content | python -
 ```
 
-## Poetry init
+### Poetry init
 
 ```sh
 poetry init
@@ -21,9 +21,9 @@ poetry add pre-commit black
 
 > на вопросы `Would you like to define ...` ответить `no`
 
-## Pre-commit
+### Pre-commit
 
-### for Windows
+#### for Windows
 
 ```sh
 poetry pre-commit sample-config > .pre-commit-config.yaml
