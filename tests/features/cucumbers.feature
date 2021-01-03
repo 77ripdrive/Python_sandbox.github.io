@@ -12,8 +12,8 @@ Feature: Cucumber Basket
     Examples:
       | initial | some | total |
       | 0       | 3    | 3     |
-      | 2       | 4    | 6     |
-      | 5       | 5    | 10    |
+      | 3       | 4    | 7     |
+      | 7       | 5    | 12    |
 
 
   Scenario Outline: Remove cucumbers from the basket
@@ -24,5 +24,5 @@ Feature: Cucumber Basket
     Examples:
       | initial | some | total |
       | 8       | 3    | 5     |
-      | 10      | 4    | 6     |
-      | 7       | 0    | 7     |
+      | 5       | 4    | 1     |
+      | 1       | 1    | 0     |
