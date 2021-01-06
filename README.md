@@ -6,7 +6,7 @@
 pip3 install --user poetry
 ```
 
-####  for Windows with Powershell
+#### for Windows with Powershell
 
 ```sh
 (Invoke-WebRequest -Uri https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py -UseBasicParsing).Content | python -
@@ -35,4 +35,18 @@ or
 ```sh
 pre-commit sample-config > .pre-commit-config.yaml
 pre-commit run -a
+```
+
+#### To run tests, clone the project and run
+
+```sh
+poetry install
+poetry run pytest
+```
+
+#### To run marked tests with tag @api_service
+
+```sh
+poetry run python -m pytest -k "api_service"
+
 ```

@@ -13,7 +13,7 @@ Feature: Cucumber Basket
       | initial | some | total |
       | 0       | 3    | 3     |
       | 3       | 4    | 7     |
-      | 7       | 5    | 12    |
+      | 2       | 1    | 3     |
 
 
   Scenario Outline: Remove cucumbers from the basket

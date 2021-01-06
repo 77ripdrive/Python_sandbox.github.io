@@ -1,3 +1,4 @@
+@pytest.mark.api_service
 Feature: Zippopo Instant Answer API
   As an application developer,
   I want to get instant answers for search terms via a REST API,
@@ -10,6 +11,6 @@ Feature: Zippopo Instant Answer API
     Then the response contains results for "<place_name>"
 
     Examples:
-      | country_code | zip_code | place_name                 |
-      | us           | 12345    | Schenectady                |
-      | nl           | 3825     | Vathorst                   |
+      | country_code | zip_code | place_name  |
+      | us           | 12345    | Schenectady |
+      | nl           | 3825     | Vathorst    |
