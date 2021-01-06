@@ -28,6 +28,7 @@ def get_data_from_json_schema(path):
 payload = {"productId": 1, "productName": "A green door", "productPrice": 12.50, "tags": ["home", "green"]}
 
 
+@pytest.mark.jsonValidation
 def test_using_csv_with_different_fields():
     with open(path_json_schema_file, "r") as schema_file:
         schema = json.load(schema_file)
@@ -36,6 +37,7 @@ def test_using_csv_with_different_fields():
     assert result == True
 
 
+@pytest.mark.jsonValidation
 @pytest.mark.parametrize("productId,productName,price,tags", read_test_data_from_csv(path_to_test_data_csv_file))
 def test_using_csv_with_different_fields_negative(productId, productName, price, tags):
     schema = get_data_from_json_schema(path_json_schema_file)

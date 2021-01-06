@@ -1,22 +1,26 @@
-from pytest_bdd import scenarios, parsers, given, when, then
+from pytest_bdd import given
+from pytest_bdd import parsers
+from pytest_bdd import scenarios
+from pytest_bdd import then
+from pytest_bdd import when
 
-from tests.models_steps.cucumbers import CucumberBasket
+from tests.models.cucumbers import CucumberBasket
 
 EXTRA_TYPES = {
-    'Number': int,
+    "Number": int,
 }
 
 CONVERTERS = {
-    'initial': int,
-    'some': int,
-    'total': int,
+    "initial": int,
+    "some": int,
+    "total": int,
 }
 
-scenarios('../features/cucumbers.feature', example_converters=CONVERTERS)
+scenarios("../features/cucumbers.feature", example_converters=CONVERTERS)
 
 
-@given(parsers.cfparse('the basket has "{initial:Number}" cucumbers', extra_types=EXTRA_TYPES), target_fixture='basket')
-@given('the basket has "<initial>" cucumbers', target_fixture='basket')
+@given(parsers.cfparse('the basket has "{initial:Number}" cucumbers', extra_types=EXTRA_TYPES), target_fixture="basket")
+@given('the basket has "<initial>" cucumbers', target_fixture="basket")
 def basket(initial):
     return CucumberBasket(initial_count=initial)
 
