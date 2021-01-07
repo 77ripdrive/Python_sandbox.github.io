@@ -8,7 +8,7 @@ from jsonschema import ValidationError
 from jsonschema import validate
 
 LOGGER = logging.getLogger(__name__)
-path_json_schema_file = os.getcwd() + "\\asset\\schema_first.json"
+path_json_schema_file = os.getcwd() + "/asset/schema_first.json"
 
 
 def get_data_from_json_schema(path):

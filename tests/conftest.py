@@ -4,8 +4,7 @@ import os
 
 import pytest
 
-path_to_test_data_csv_file = os.getcwd() + "\\asset\\data_test_negative.csv"
-path_json_schema_file = os.getcwd() + "\\asset\\schema_first.json"
+path_json_schema_file = os.getcwd() + "/asset/schema_first.json"
 
 
 def read_test_data_from_csv(path):
@@ -41,9 +40,3 @@ def set_base_payload():
 def set_schema():
     schema = get_data_from_json_schema(path_json_schema_file)
     return schema
-
-
-@pytest.fixture(scope="session")
-def set_test_data_negative():
-    negative_test_data = read_test_data_from_csv(path_to_test_data_csv_file)
-    return negative_test_data
