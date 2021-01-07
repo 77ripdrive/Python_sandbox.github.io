@@ -251,6 +251,17 @@ pytest = ">=4.3"
 six = ">=1.9.0"
 
 [[package]]
+name = "pytest-github-actions-annotate-failures"
+version = "0.1.1"
+description = "pytest plugin to annotate failed tests with a workflow command for GitHub Actions"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+pytest = ">=4.0.0"
+
+[[package]]
 name = "requests"
 version = "2.25.1"
 description = "Python HTTP for Humans."
@@ -300,7 +311,7 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "479b171761defc57787ff7d1fe151bcc3edd5ed1097719cd3744c97b9ad009df"
+content-hash = "8720fc81b4bf7430c6dd52c0d1d00e7579d790c9239e86ef35a9619d139d6a45"
 
 [metadata.files]
 allure-pytest = [
@@ -421,6 +432,10 @@ pytest = [
 pytest-bdd = [
     {file = "pytest-bdd-4.0.2.tar.gz", hash = "sha256:982489f2f036c7561affe4eeb5b392a37e1ace2a9f260cad747b1c8119e63cfd"},
     {file = "pytest_bdd-4.0.2-py2.py3-none-any.whl", hash = "sha256:74ea5a147ea558c99ae83d838e6acbe5c9e6843884a958f8231615d96838733d"},
+]
+pytest-github-actions-annotate-failures = [
+    {file = "pytest-github-actions-annotate-failures-0.1.1.tar.gz", hash = "sha256:66445649ac8c0e1a05475faeda1679f0609a77861f9c620f68429cf6daf4ddc2"},
+    {file = "pytest_github_actions_annotate_failures-0.1.1-py2.py3-none-any.whl", hash = "sha256:e997068fff4909331c3b5f4e2c7868535aa4c62cb71b96b9d9724733f80bba26"},
 ]
 requests = [
     {file = "requests-2.25.1-py2.py3-none-any.whl", hash = "sha256:c210084e36a42ae6b9219e00e48287def368a26d03a048ddad7bfee44f75871e"},
