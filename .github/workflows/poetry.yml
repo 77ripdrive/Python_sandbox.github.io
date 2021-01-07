@@ -16,12 +16,15 @@ jobs:
 
     - name: Install dependencies
       run: |
+        python -m pip install --upgrade pip
         pip install --user poetry
         poetry install
 
     - name: Test with pytest
-      run: |
-        poetry run pytest --alluredir=allure-results
+      if: always()
+      run: poetry run pytest --alluredir=allure-results
+      continue-on-error: true
+
     - name: Allure results
       uses: simple-elf/allure-report-action@master
       if: always()
