@@ -1,0 +1,69 @@
+stages:
+  - testing # Tests run
+  - history_save # Save allure history
+  - reports # Report generation
+  - deploy # Report publication in gitlab pages
+
+docker_job:
+  stage: testing
+  tags:
+    - docker
+  image: python:3.9-alpine
+  before_script:
+    -  pip install --user poetry
+    -  python -m poetry install
+  script:
+    - python -m poetry run python -m pytest -v tests --alluredir=./allure-results tests/
+
+  allow_failure: true
+  artifacts:
+    when: always
+    paths:
+      - ./allure-results
+    expire_in: 1 day
+
+history_job:
+  stage: history_save
+  tags:
+    - docker
+  image: storytel/alpine-bash-curl
+  script:
+#    https://docs.gitlab.com/ee/ci/pipelines/job_artifacts.html#downloading-artifacts
+    - 'curl --location --output artifacts.zip "https://gitlab.com/api/<namespace>/<project>/-/jobs/artifacts/master/download?job=pages&job_token=$CI_JOB_TOKEN"'
+    - apk add unzip
+    - unzip artifacts.zip
+    - chmod -R 777 public
+    - cp -r ./public/history ./allure-results
+  allow_failure: true
+  artifacts:
+    paths:
+      - ./allure-results
+    expire_in: 1 day
+  rules:
+    - when: always
+
+allure_job:
+  stage: reports
+  tags:
+    - docker
+  image: frankescobar/allure-docker-service
+  script:
+     - allure generate -c ./allure-results -o ./allure-report
+  artifacts:
+    paths:
+      - ./allure-results
+      - ./allure-report
+    expire_in: 1 day
+  rules:
+    - when: always
+
+pages:
+  stage: deploy
+  script:
+    - mkdir public
+    - mv ./allure-report/* public
+  artifacts:
+    paths:
+      - public
+  rules:
+    - when: always
