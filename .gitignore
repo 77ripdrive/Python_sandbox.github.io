@@ -107,3 +107,6 @@ venv.bak/
 *.iml
 !.gitignore
 !.pre-commit-config.yaml
+
+# Allure
+.allure-results/
