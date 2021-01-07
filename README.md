@@ -1,3 +1,5 @@
+[![PYTEST](https://img.shields.io/badge/pytest-v%200.1-green)](https://img.shields.io/badge/pytest-v%200.1-green)
+
 ## An example of initializing a Python project from scratch
 
 ### Dependency management with [Poetry-Python](https://python-poetry.org/docs/)
