@@ -1,3 +1,4 @@
+![.github/workflows/poetry.yml](https://github.com/77ripdrive/Python_sandbox/workflows/.github/workflows/poetry.yml/badge.svg)
 [![PYTEST](https://img.shields.io/badge/pytest-v%200.1-green)](https://img.shields.io/badge/pytest-v%200.1-green)
 
 ## An example of initializing a Python project from scratch
