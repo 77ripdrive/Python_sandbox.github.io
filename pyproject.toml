@@ -11,6 +11,7 @@ requests = "^2.25.1"
 jsonschema = "^3.2.0"
 pytest-bdd = "^4.0.2"
 jsonpath = "^0.82"
+allure-pytest = "^2.8.29"
 
 [tool.poetry.dev-dependencies]
 
@@ -21,5 +22,12 @@ build-backend = "poetry.core.masonry.api"
 [tool.pytest.ini_options]
 markers = [
     "api_service: marks tests for api testing')",
-    "serial",
+    "jsonValidation: marks tests with jsonschema validation",
+    "duck's_search: marks tests with duckducks api search",
+]
+filterwarnings = [
+    "error",
+    "ignore::UserWarning",
+    # note the use of single quote below to denote "raw" strings in TOML
+    'ignore:function ham\(\) is deprecated:DeprecationWarning',
 ]
