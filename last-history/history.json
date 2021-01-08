@@ -4,11 +4,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "75e21d2dea2822d4",
+      "reportUrl" : "https://77ripdrive.github.io/Python_sandbox.github.io/16//#testresult/75e21d2dea2822d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610128444115,
+        "stop" : 1610128444117,
+        "duration" : 2
+      }
+    }, {
       "uid" : "79e6ba9a0861dd30",
       "reportUrl" : "https://77ripdrive.github.io/Python_sandbox/16//#testresult/79e6ba9a0861dd30",
       "status" : "passed",
@@ -24,11 +33,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "84b62fd716598721",
+      "reportUrl" : "https://77ripdrive.github.io/Python_sandbox.github.io/16//#testresult/84b62fd716598721",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610128443901,
+        "stop" : 1610128443901,
+        "duration" : 0
+      }
+    }, {
       "uid" : "5cdf98305baae8c0",
       "reportUrl" : "https://77ripdrive.github.io/Python_sandbox/16//#testresult/5cdf98305baae8c0",
       "status" : "passed",
@@ -44,11 +62,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "4c3a68aeb1ff588c",
+      "reportUrl" : "https://77ripdrive.github.io/Python_sandbox.github.io/16//#testresult/4c3a68aeb1ff588c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610128444124,
+        "stop" : 1610128444124,
+        "duration" : 0
+      }
+    }, {
       "uid" : "1993e89b4fef89da",
       "reportUrl" : "https://77ripdrive.github.io/Python_sandbox/16//#testresult/1993e89b4fef89da",
       "status" : "passed",
@@ -64,11 +91,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "6d9bccea32ded72d",
+      "reportUrl" : "https://77ripdrive.github.io/Python_sandbox.github.io/16//#testresult/6d9bccea32ded72d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610128443897,
+        "stop" : 1610128443898,
+        "duration" : 1
+      }
+    }, {
       "uid" : "f0a258002126d654",
       "reportUrl" : "https://77ripdrive.github.io/Python_sandbox/16//#testresult/f0a258002126d654",
       "status" : "passed",
@@ -84,11 +120,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "83f0f16ee353ad40",
+      "reportUrl" : "https://77ripdrive.github.io/Python_sandbox.github.io/16//#testresult/83f0f16ee353ad40",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610128443907,
+        "stop" : 1610128444019,
+        "duration" : 112
+      }
+    }, {
       "uid" : "eff1fd6f33d57a89",
       "reportUrl" : "https://77ripdrive.github.io/Python_sandbox/16//#testresult/eff1fd6f33d57a89",
       "status" : "passed",
@@ -104,11 +149,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "fe2d7cfc611b9511",
+      "reportUrl" : "https://77ripdrive.github.io/Python_sandbox.github.io/16//#testresult/fe2d7cfc611b9511",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610128443887,
+        "stop" : 1610128443888,
+        "duration" : 1
+      }
+    }, {
       "uid" : "d957c1f7acd45186",
       "reportUrl" : "https://77ripdrive.github.io/Python_sandbox/16//#testresult/d957c1f7acd45186",
       "status" : "passed",
@@ -124,11 +178,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "996b17c80f299974",
+      "reportUrl" : "https://77ripdrive.github.io/Python_sandbox.github.io/16//#testresult/996b17c80f299974",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610128443890,
+        "stop" : 1610128443891,
+        "duration" : 1
+      }
+    }, {
       "uid" : "19015815d953527a",
       "reportUrl" : "https://77ripdrive.github.io/Python_sandbox/16//#testresult/19015815d953527a",
       "status" : "passed",
@@ -144,11 +207,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "c8974708a121047f",
+      "reportUrl" : "https://77ripdrive.github.io/Python_sandbox.github.io/16//#testresult/c8974708a121047f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610128444023,
+        "stop" : 1610128444098,
+        "duration" : 75
+      }
+    }, {
       "uid" : "38c3c1b56d2843b5",
       "reportUrl" : "https://77ripdrive.github.io/Python_sandbox/16//#testresult/38c3c1b56d2843b5",
       "status" : "passed",
@@ -164,11 +236,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "8baabfa9c4fd5d34",
+      "reportUrl" : "https://77ripdrive.github.io/Python_sandbox.github.io/16//#testresult/8baabfa9c4fd5d34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610128443904,
+        "stop" : 1610128443904,
+        "duration" : 0
+      }
+    }, {
       "uid" : "d5e4365317cf7946",
       "reportUrl" : "https://77ripdrive.github.io/Python_sandbox/16//#testresult/d5e4365317cf7946",
       "status" : "passed",
@@ -184,11 +265,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "ef58b5f721b9e277",
+      "reportUrl" : "https://77ripdrive.github.io/Python_sandbox.github.io/16//#testresult/ef58b5f721b9e277",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610128444103,
+        "stop" : 1610128444105,
+        "duration" : 2
+      }
+    }, {
       "uid" : "d699c0bff7dd110e",
       "reportUrl" : "https://77ripdrive.github.io/Python_sandbox/16//#testresult/d699c0bff7dd110e",
       "status" : "passed",
@@ -204,11 +294,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "d55fab04e20b7acf",
+      "reportUrl" : "https://77ripdrive.github.io/Python_sandbox.github.io/16//#testresult/d55fab04e20b7acf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610128444111,
+        "stop" : 1610128444113,
+        "duration" : 2
+      }
+    }, {
       "uid" : "cbace6cce0218dea",
       "reportUrl" : "https://77ripdrive.github.io/Python_sandbox/16//#testresult/cbace6cce0218dea",
       "status" : "passed",
@@ -224,11 +323,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "b95a0a7a2b1f9531",
+      "reportUrl" : "https://77ripdrive.github.io/Python_sandbox.github.io/16//#testresult/b95a0a7a2b1f9531",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610128444122,
+        "stop" : 1610128444122,
+        "duration" : 0
+      }
+    }, {
       "uid" : "5248c48235d2618f",
       "reportUrl" : "https://77ripdrive.github.io/Python_sandbox/16//#testresult/5248c48235d2618f",
       "status" : "passed",
@@ -244,11 +352,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "5290f4b9e0779c40",
+      "reportUrl" : "https://77ripdrive.github.io/Python_sandbox.github.io/16//#testresult/5290f4b9e0779c40",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610128444119,
+        "stop" : 1610128444120,
+        "duration" : 1
+      }
+    }, {
       "uid" : "6ba8f56a1b5db99",
       "reportUrl" : "https://77ripdrive.github.io/Python_sandbox/16//#testresult/6ba8f56a1b5db99",
       "status" : "passed",
@@ -262,13 +379,23 @@
   "8dacfc249410365b1e097ae7929456e0" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "32b85cf194c21784",
+      "reportUrl" : "https://77ripdrive.github.io/Python_sandbox.github.io/16//#testresult/32b85cf194c21784",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.InvalidSchema: No connection adapters were found for \"{'https://api.duckduckgo.com/'}\"",
+      "time" : {
+        "start" : 1610128443857,
+        "stop" : 1610128443858,
+        "duration" : 1
+      }
+    }, {
       "uid" : "69e1a4d6d340c1ce",
       "reportUrl" : "https://77ripdrive.github.io/Python_sandbox/16//#testresult/69e1a4d6d340c1ce",
       "status" : "broken",
@@ -285,11 +412,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "5c99a7cd5af6d40",
+      "reportUrl" : "https://77ripdrive.github.io/Python_sandbox.github.io/16//#testresult/5c99a7cd5af6d40",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610128443894,
+        "stop" : 1610128443894,
+        "duration" : 0
+      }
+    }, {
       "uid" : "232e18cfe77e9722",
       "reportUrl" : "https://77ripdrive.github.io/Python_sandbox/16//#testresult/232e18cfe77e9722",
       "status" : "passed",
@@ -303,13 +439,23 @@
   "48a3645f486af89b9a36794faf0fa5cd" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "ba7ef191e5c5c6be",
+      "reportUrl" : "https://77ripdrive.github.io/Python_sandbox.github.io/16//#testresult/ba7ef191e5c5c6be",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.InvalidSchema: No connection adapters were found for \"{'https://api.duckduckgo.com/'}\"",
+      "time" : {
+        "start" : 1610128443754,
+        "stop" : 1610128443755,
+        "duration" : 1
+      }
+    }, {
       "uid" : "c15e64f55d261856",
       "reportUrl" : "https://77ripdrive.github.io/Python_sandbox/16//#testresult/c15e64f55d261856",
       "status" : "broken",
@@ -326,11 +472,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "e93192d0ce69ad75",
+      "reportUrl" : "https://77ripdrive.github.io/Python_sandbox.github.io/16//#testresult/e93192d0ce69ad75",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610128444107,
+        "stop" : 1610128444108,
+        "duration" : 1
+      }
+    }, {
       "uid" : "ad56e1af472261d4",
       "reportUrl" : "https://77ripdrive.github.io/Python_sandbox/16//#testresult/ad56e1af472261d4",
       "status" : "passed",
@@ -346,11 +501,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "7ce1cba45ceb5d6d",
+      "reportUrl" : "https://77ripdrive.github.io/Python_sandbox.github.io/16//#testresult/7ce1cba45ceb5d6d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610128444109,
+        "stop" : 1610128444110,
+        "duration" : 1
+      }
+    }, {
       "uid" : "4b9e9f63d0f36407",
       "reportUrl" : "https://77ripdrive.github.io/Python_sandbox/16//#testresult/4b9e9f63d0f36407",
       "status" : "passed",
@@ -364,13 +528,23 @@
   "3993ad2635c159a9b8ec274be52bc8d0" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "69bcba469699ed16",
+      "reportUrl" : "https://77ripdrive.github.io/Python_sandbox.github.io/16//#testresult/69bcba469699ed16",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.InvalidSchema: No connection adapters were found for \"{'https://api.duckduckgo.com/'}\"",
+      "time" : {
+        "start" : 1610128443826,
+        "stop" : 1610128443827,
+        "duration" : 1
+      }
+    }, {
       "uid" : "58e3dc0aad3f471f",
       "reportUrl" : "https://77ripdrive.github.io/Python_sandbox/16//#testresult/58e3dc0aad3f471f",
       "status" : "broken",

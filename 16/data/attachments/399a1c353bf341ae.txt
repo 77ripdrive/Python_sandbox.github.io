@@ -1,0 +1,2 @@
+Step failed: Given "the DuckDuckGo API is queried with "<phrase>""
+Request failed: <FixtureRequest for <Function test_basic_duckduckgo_api_query[audi]>>

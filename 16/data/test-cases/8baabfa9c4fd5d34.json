@@ -1,0 +1,87 @@
+{
+  "uid" : "8baabfa9c4fd5d34",
+  "name" : "test_remove_cucumbers_from_the_basket[1-1-0]",
+  "fullName" : "tests.steps_defs.test_cucumber_steps#test_remove_cucumbers_from_the_basket",
+  "historyId" : "8c529829959eac2b8f00371b5f4a2413",
+  "time" : {
+    "start" : 1610128443904,
+    "stop" : 1610128443904,
+    "duration" : 0
+  },
+  "description" : "/home/runner/work/Python_sandbox.github.io/Python_sandbox.github.io/tests/features/cucumbers.feature: Remove cucumbers from the basket",
+  "descriptionHtml" : "<p>/home/runner/work/Python_sandbox.github.io/Python_sandbox.github.io/tests/features/cucumbers.feature: Remove cucumbers from the basket</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('total', 'initial', 'some')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.steps_defs"
+  }, {
+    "name" : "suite",
+    "value" : "test_cucumber_steps"
+  }, {
+    "name" : "host",
+    "value" : "fv-az54-317"
+  }, {
+    "name" : "thread",
+    "value" : "4156-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.steps_defs.test_cucumber_steps"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "initial",
+    "value" : "1"
+  }, {
+    "name" : "some",
+    "value" : "1"
+  }, {
+    "name" : "total",
+    "value" : "0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "d5e4365317cf7946",
+        "reportUrl" : "https://77ripdrive.github.io/Python_sandbox/16//#testresult/d5e4365317cf7946",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610127437562,
+          "stop" : 1610127437563,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.usefixtures('total', 'initial', 'some')" ]
+  },
+  "source" : "8baabfa9c4fd5d34.json",
+  "parameterValues" : [ "1", "1", "0" ]
+}

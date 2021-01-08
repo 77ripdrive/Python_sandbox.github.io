@@ -1,0 +1,75 @@
+{
+  "uid" : "4c3a68aeb1ff588c",
+  "name" : "test_replace",
+  "fullName" : "tests.test_tuple_as_dict#test_replace",
+  "historyId" : "a0619d7bf86e25b7ca39592b4a19a188",
+  "time" : {
+    "start" : 1610128444124,
+    "stop" : 1610128444124,
+    "duration" : 0
+  },
+  "description" : "replace() should change passed in fields.",
+  "descriptionHtml" : "<p>replace() should change passed in fields.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_tuple_as_dict"
+  }, {
+    "name" : "host",
+    "value" : "fv-az54-317"
+  }, {
+    "name" : "thread",
+    "value" : "4156-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_tuple_as_dict"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "1993e89b4fef89da",
+        "reportUrl" : "https://77ripdrive.github.io/Python_sandbox/16//#testresult/1993e89b4fef89da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610127437914,
+          "stop" : 1610127437914,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "4c3a68aeb1ff588c.json",
+  "parameterValues" : [ ]
+}

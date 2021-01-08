@@ -1,5 +1,12 @@
 [ {
   "buildOrder" : 16,
+  "reportUrl" : "https://77ripdrive.github.io/Python_sandbox.github.io/16/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 370
+  }
+}, {
+  "buildOrder" : 16,
   "reportUrl" : "https://77ripdrive.github.io/Python_sandbox/16/",
   "reportName" : "Allure Report with history",
   "data" : {

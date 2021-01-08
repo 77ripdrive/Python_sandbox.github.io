@@ -6,25 +6,25 @@
       "name" : "requests.exceptions.InvalidSchema: No connection adapters were found for \"{'https://api.duckduckgo.com/'}\"",
       "children" : [ {
         "name" : "test_basic_duckduckgo_api_query[dodge]",
-        "uid" : "c15e64f55d261856",
+        "uid" : "ba7ef191e5c5c6be",
         "parentUid" : "114cbd4363c3b437b2a7c6fb85b8e35a",
         "status" : "broken",
         "time" : {
-          "start" : 1610127437407,
-          "stop" : 1610127437409,
-          "duration" : 2
+          "start" : 1610128443754,
+          "stop" : 1610128443755,
+          "duration" : 1
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "'dodge'" ]
       }, {
         "name" : "test_basic_duckduckgo_api_query[audi]",
-        "uid" : "58e3dc0aad3f471f",
+        "uid" : "69bcba469699ed16",
         "parentUid" : "114cbd4363c3b437b2a7c6fb85b8e35a",
         "status" : "broken",
         "time" : {
-          "start" : 1610127437481,
-          "stop" : 1610127437482,
+          "start" : 1610128443826,
+          "stop" : 1610128443827,
           "duration" : 1
         },
         "flaky" : false,
@@ -32,12 +32,12 @@
         "parameters" : [ "'audi'" ]
       }, {
         "name" : "test_basic_duckduckgo_api_query[toyota]",
-        "uid" : "69e1a4d6d340c1ce",
+        "uid" : "32b85cf194c21784",
         "parentUid" : "114cbd4363c3b437b2a7c6fb85b8e35a",
         "status" : "broken",
         "time" : {
-          "start" : 1610127437512,
-          "stop" : 1610127437513,
+          "start" : 1610128443857,
+          "stop" : 1610128443858,
           "duration" : 1
         },
         "flaky" : false,
