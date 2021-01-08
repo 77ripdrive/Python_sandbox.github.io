@@ -5,6 +5,8 @@ from pytest_bdd import parsers
 from pytest_bdd import scenarios
 from pytest_bdd import then
 
+from config import BASE_URL_ZIPPOPO
+
 CONVERTERS = {"country_code": str, "zip_code": int, "place_name": str}
 
 scenarios("../features/zippopo.feature", example_converters=CONVERTERS)
@@ -12,8 +14,7 @@ scenarios("../features/zippopo.feature", example_converters=CONVERTERS)
 
 @given('the Zippopotam API is queried with "<country_code>" and "<zip_code>"', target_fixture="ddg_response")
 def ddg_response(country_code, zip_code):
-    url = "http://api.zippopotam.us/{}/{}".format(country_code, zip_code)
-    response = requests.get(url)
+    response = requests.get(f"{BASE_URL_ZIPPOPO}/{country_code}/{zip_code}")
     return response
 
 

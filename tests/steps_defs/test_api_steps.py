@@ -5,10 +5,10 @@ from pytest_bdd import scenarios
 from pytest_bdd import then
 
 # Shared Variables
-
-DUCKDUCKGO_API = "https://api.duckduckgo.com/"
+from config import DUCKDUCKGO_API
 
 # Scenarios
+
 
 scenarios("../features/api.feature", example_converters=dict(phrase=str))
 
@@ -19,7 +19,7 @@ scenarios("../features/api.feature", example_converters=dict(phrase=str))
 @given('the DuckDuckGo API is queried with "<phrase>"', target_fixture="ddg_response")
 def ddg_response(phrase):
     params = {"q": phrase, "format": "json"}
-    response = requests.get(DUCKDUCKGO_API, params=params)
+    response = requests.get({DUCKDUCKGO_API}, params=params)
     return response
 
 
