@@ -1,4 +1,4 @@
-@pytest.mark.duck's_search
+@pytest.mark.duckduck_search
 Feature: DuckDuckGo Instant Answer API
   As an application developer,
   I want to get instant answers for search terms via a REST API,
