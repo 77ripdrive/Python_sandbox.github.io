@@ -1,0 +1,15 @@
+{
+  "total" : 17,
+  "items" : [ {
+    "uid" : "12e2bf8cb7be759a89cf6942795d1fd4",
+    "name" : "Jsonschema validation",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

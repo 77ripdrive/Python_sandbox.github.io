@@ -1,0 +1,26 @@
+{
+  "total" : 2,
+  "items" : [ {
+    "uid" : "64064d97f6c801146f15817bd395a5a8",
+    "name" : "tests.steps_defs",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 8,
+      "unknown" : 0,
+      "total" : 11
+    }
+  }, {
+    "uid" : "e387fa4bb326b54ea8c19c2822aba374",
+    "name" : "tests",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 8,
+      "unknown" : 0,
+      "total" : 8
+    }
+  } ]
+}

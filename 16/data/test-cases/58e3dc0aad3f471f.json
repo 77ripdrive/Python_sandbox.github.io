@@ -1,0 +1,89 @@
+{
+  "uid" : "58e3dc0aad3f471f",
+  "name" : "test_basic_duckduckgo_api_query[audi]",
+  "fullName" : "tests.steps_defs.test_api_steps#test_basic_duckduckgo_api_query",
+  "historyId" : "3993ad2635c159a9b8ec274be52bc8d0",
+  "time" : {
+    "start" : 1610127437481,
+    "stop" : 1610127437482,
+    "duration" : 1
+  },
+  "description" : "/home/runner/work/Python_sandbox/Python_sandbox/tests/features/api.feature: Basic DuckDuckGo API Query",
+  "descriptionHtml" : "<p>/home/runner/work/Python_sandbox/Python_sandbox/tests/features/api.feature: Basic DuckDuckGo API Query</p>\n",
+  "status" : "broken",
+  "statusMessage" : "requests.exceptions.InvalidSchema: No connection adapters were found for \"{'https://api.duckduckgo.com/'}\"",
+  "statusTrace" : "request = <FixtureRequest for <Function test_basic_duckduckgo_api_query[audi]>>\n\n    @pytest.mark.usefixtures(*function_args)\n    def scenario_wrapper(request):\n>       _execute_scenario(feature, scenario, request, encoding)\n\n../../../.cache/pypoetry/virtualenvs/pm-tests-ChGQL3LN-py3.9/lib/python3.9/site-packages/pytest_bdd/scenario.py:177: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n../../../.cache/pypoetry/virtualenvs/pm-tests-ChGQL3LN-py3.9/lib/python3.9/site-packages/pytest_bdd/scenario.py:143: in _execute_scenario\n    _execute_step_function(request, scenario, step, step_func)\n../../../.cache/pypoetry/virtualenvs/pm-tests-ChGQL3LN-py3.9/lib/python3.9/site-packages/pytest_bdd/scenario.py:113: in _execute_step_function\n    return_value = step_func(**kwargs)\ntests/steps_defs/test_api_steps.py:22: in ddg_response\n    response = requests.get({DUCKDUCKGO_API}, params=params)\n../../../.cache/pypoetry/virtualenvs/pm-tests-ChGQL3LN-py3.9/lib/python3.9/site-packages/requests/api.py:76: in get\n    return request('get', url, params=params, **kwargs)\n../../../.cache/pypoetry/virtualenvs/pm-tests-ChGQL3LN-py3.9/lib/python3.9/site-packages/requests/api.py:61: in request\n    return session.request(method=method, url=url, **kwargs)\n../../../.cache/pypoetry/virtualenvs/pm-tests-ChGQL3LN-py3.9/lib/python3.9/site-packages/requests/sessions.py:542: in request\n    resp = self.send(prep, **send_kwargs)\n../../../.cache/pypoetry/virtualenvs/pm-tests-ChGQL3LN-py3.9/lib/python3.9/site-packages/requests/sessions.py:649: in send\n    adapter = self.get_adapter(url=request.url)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <requests.sessions.Session object at 0x7f456605aa90>\nurl = \"{'https://api.duckduckgo.com/'}\"\n\n    def get_adapter(self, url):\n        \"\"\"\n        Returns the appropriate connection adapter for the given URL.\n    \n        :rtype: requests.adapters.BaseAdapter\n        \"\"\"\n        for (prefix, adapter) in self.adapters.items():\n    \n            if url.lower().startswith(prefix.lower()):\n                return adapter\n    \n        # Nothing matches :-/\n>       raise InvalidSchema(\"No connection adapters were found for {!r}\".format(url))\nE       requests.exceptions.InvalidSchema: No connection adapters were found for \"{'https://api.duckduckgo.com/'}\"\n\n../../../.cache/pypoetry/virtualenvs/pm-tests-ChGQL3LN-py3.9/lib/python3.9/site-packages/requests/sessions.py:742: InvalidSchema",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "/home/runner/work/Python_sandbox/Python_sandbox/tests/features/api.feature: Basic DuckDuckGo API Query",
+    "status" : "broken",
+    "statusMessage" : "requests.exceptions.InvalidSchema: No connection adapters were found for \"{'https://api.duckduckgo.com/'}\"",
+    "statusTrace" : "request = <FixtureRequest for <Function test_basic_duckduckgo_api_query[audi]>>\n\n    @pytest.mark.usefixtures(*function_args)\n    def scenario_wrapper(request):\n>       _execute_scenario(feature, scenario, request, encoding)\n\n../../../.cache/pypoetry/virtualenvs/pm-tests-ChGQL3LN-py3.9/lib/python3.9/site-packages/pytest_bdd/scenario.py:177: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n../../../.cache/pypoetry/virtualenvs/pm-tests-ChGQL3LN-py3.9/lib/python3.9/site-packages/pytest_bdd/scenario.py:143: in _execute_scenario\n    _execute_step_function(request, scenario, step, step_func)\n../../../.cache/pypoetry/virtualenvs/pm-tests-ChGQL3LN-py3.9/lib/python3.9/site-packages/pytest_bdd/scenario.py:113: in _execute_step_function\n    return_value = step_func(**kwargs)\ntests/steps_defs/test_api_steps.py:22: in ddg_response\n    response = requests.get({DUCKDUCKGO_API}, params=params)\n../../../.cache/pypoetry/virtualenvs/pm-tests-ChGQL3LN-py3.9/lib/python3.9/site-packages/requests/api.py:76: in get\n    return request('get', url, params=params, **kwargs)\n../../../.cache/pypoetry/virtualenvs/pm-tests-ChGQL3LN-py3.9/lib/python3.9/site-packages/requests/api.py:61: in request\n    return session.request(method=method, url=url, **kwargs)\n../../../.cache/pypoetry/virtualenvs/pm-tests-ChGQL3LN-py3.9/lib/python3.9/site-packages/requests/sessions.py:542: in request\n    resp = self.send(prep, **send_kwargs)\n../../../.cache/pypoetry/virtualenvs/pm-tests-ChGQL3LN-py3.9/lib/python3.9/site-packages/requests/sessions.py:649: in send\n    adapter = self.get_adapter(url=request.url)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <requests.sessions.Session object at 0x7f456605aa90>\nurl = \"{'https://api.duckduckgo.com/'}\"\n\n    def get_adapter(self, url):\n        \"\"\"\n        Returns the appropriate connection adapter for the given URL.\n    \n        :rtype: requests.adapters.BaseAdapter\n        \"\"\"\n        for (prefix, adapter) in self.adapters.items():\n    \n            if url.lower().startswith(prefix.lower()):\n                return adapter\n    \n        # Nothing matches :-/\n>       raise InvalidSchema(\"No connection adapters were found for {!r}\".format(url))\nE       requests.exceptions.InvalidSchema: No connection adapters were found for \"{'https://api.duckduckgo.com/'}\"\n\n../../../.cache/pypoetry/virtualenvs/pm-tests-ChGQL3LN-py3.9/lib/python3.9/site-packages/requests/sessions.py:742: InvalidSchema",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b582912555c7d342",
+      "name" : "stdout",
+      "source" : "b582912555c7d342.txt",
+      "type" : "text/plain",
+      "size" : 153
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('phrase')"
+  }, {
+    "name" : "tag",
+    "value" : "pytest.mark.duck's_search"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.steps_defs"
+  }, {
+    "name" : "suite",
+    "value" : "test_api_steps"
+  }, {
+    "name" : "host",
+    "value" : "fv-az19-401"
+  }, {
+    "name" : "thread",
+    "value" : "4130-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.steps_defs.test_api_steps"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "phrase",
+    "value" : "'audi'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "@pytest.mark.usefixtures('phrase')", "pytest.mark.duck's_search" ]
+  },
+  "source" : "58e3dc0aad3f471f.json",
+  "parameterValues" : [ "'audi'" ]
+}

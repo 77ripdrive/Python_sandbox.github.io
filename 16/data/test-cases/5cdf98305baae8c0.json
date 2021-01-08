@@ -1,0 +1,67 @@
+{
+  "uid" : "5cdf98305baae8c0",
+  "name" : "test_remove_cucumbers_from_the_basket[5-4-1]",
+  "fullName" : "tests.steps_defs.test_cucumber_steps#test_remove_cucumbers_from_the_basket",
+  "historyId" : "b46f60e44dc101036c0cbc40ac6a5a3b",
+  "time" : {
+    "start" : 1610127437559,
+    "stop" : 1610127437560,
+    "duration" : 1
+  },
+  "description" : "/home/runner/work/Python_sandbox/Python_sandbox/tests/features/cucumbers.feature: Remove cucumbers from the basket",
+  "descriptionHtml" : "<p>/home/runner/work/Python_sandbox/Python_sandbox/tests/features/cucumbers.feature: Remove cucumbers from the basket</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('some', 'initial', 'total')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.steps_defs"
+  }, {
+    "name" : "suite",
+    "value" : "test_cucumber_steps"
+  }, {
+    "name" : "host",
+    "value" : "fv-az19-401"
+  }, {
+    "name" : "thread",
+    "value" : "4130-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.steps_defs.test_cucumber_steps"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "initial",
+    "value" : "5"
+  }, {
+    "name" : "some",
+    "value" : "4"
+  }, {
+    "name" : "total",
+    "value" : "1"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('some', 'initial', 'total')" ]
+  },
+  "source" : "5cdf98305baae8c0.json",
+  "parameterValues" : [ "5", "4", "1" ]
+}

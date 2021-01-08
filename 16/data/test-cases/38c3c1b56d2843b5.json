@@ -1,0 +1,70 @@
+{
+  "uid" : "38c3c1b56d2843b5",
+  "name" : "test_basic_zip_search[nl-3825-Vathorst]",
+  "fullName" : "tests.steps_defs.test_zippo_steps#test_basic_zip_search",
+  "historyId" : "b7af523cd8232e1185eb026d5b3edb41",
+  "time" : {
+    "start" : 1610127437811,
+    "stop" : 1610127437888,
+    "duration" : 77
+  },
+  "description" : "/home/runner/work/Python_sandbox/Python_sandbox/tests/features/zippopo.feature: Basic ZIP search",
+  "descriptionHtml" : "<p>/home/runner/work/Python_sandbox/Python_sandbox/tests/features/zippopo.feature: Basic ZIP search</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('country_code', 'zip_code', 'place_name')"
+  }, {
+    "name" : "tag",
+    "value" : "pytest.mark.api_service"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.steps_defs"
+  }, {
+    "name" : "suite",
+    "value" : "test_zippo_steps"
+  }, {
+    "name" : "host",
+    "value" : "fv-az19-401"
+  }, {
+    "name" : "thread",
+    "value" : "4130-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.steps_defs.test_zippo_steps"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "country_code",
+    "value" : "'nl'"
+  }, {
+    "name" : "place_name",
+    "value" : "'Vathorst'"
+  }, {
+    "name" : "zip_code",
+    "value" : "3825"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('country_code', 'zip_code', 'place_name')", "pytest.mark.api_service" ]
+  },
+  "source" : "38c3c1b56d2843b5.json",
+  "parameterValues" : [ "'nl'", "'Vathorst'", "3825" ]
+}

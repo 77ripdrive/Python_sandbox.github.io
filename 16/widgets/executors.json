@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://77ripdrive.github.io/Python_sandbox",
+  "buildOrder" : 16,
+  "buildName" : "GitHub Actions Run #472374836",
+  "buildUrl" : "https://github.com/77ripdrive/Python_sandbox/actions/runs/472374836",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://77ripdrive.github.io/Python_sandbox/16/"
+} ]
