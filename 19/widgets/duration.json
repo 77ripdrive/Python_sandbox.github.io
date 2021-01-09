@@ -1,0 +1,191 @@
+[ {
+  "uid" : "f59c756cd5d0379a",
+  "name" : "test_add_cucumbers_to_a_basket[3-4-7]",
+  "time" : {
+    "start" : 1610189910754,
+    "stop" : 1610189910755,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e3141222bbb51159",
+  "name" : "test_cerberus_validator_base",
+  "time" : {
+    "start" : 1610189910971,
+    "stop" : 1610189910975,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "124048b27132cfed",
+  "name" : "test_asdict",
+  "time" : {
+    "start" : 1610189910996,
+    "stop" : 1610189910997,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c96c1ec22e528aa",
+  "name" : "test_add_cucumbers_to_a_basket[2-1-3]",
+  "time" : {
+    "start" : 1610189910758,
+    "stop" : 1610189910759,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5e20796821bfebb5",
+  "name" : "test_using_csv_with_different_fields",
+  "time" : {
+    "start" : 1610189910980,
+    "stop" : 1610189910980,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2eabe71cb7b865c6",
+  "name" : "test_basic_duckduckgo_api_query[toyota]",
+  "time" : {
+    "start" : 1610189910677,
+    "stop" : 1610189910745,
+    "duration" : 68
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d4a92f9d3417abae",
+  "name" : "test_replace",
+  "time" : {
+    "start" : 1610189910998,
+    "stop" : 1610189910998,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "595f7bc057e46380",
+  "name" : "test_add_cucumbers_to_a_basket[0-3-3]",
+  "time" : {
+    "start" : 1610189910749,
+    "stop" : 1610189910750,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "21ba00e15f3a7c2",
+  "name" : "test_remove_cucumbers_from_the_basket[8-3-5]",
+  "time" : {
+    "start" : 1610189910762,
+    "stop" : 1610189910763,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c4676f9b1916fbd7",
+  "name" : "test_using_csv_with_different_fields_negative[4-one-20-green]",
+  "time" : {
+    "start" : 1610189910993,
+    "stop" : 1610189910994,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fa9f8f9b89baa539",
+  "name" : "test_basic_zip_search[nl-3825-Vathorst]",
+  "time" : {
+    "start" : 1610189910871,
+    "stop" : 1610189910964,
+    "duration" : 93
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fa90eea60db255fa",
+  "name" : "test_cerberus_validator_negative",
+  "time" : {
+    "start" : 1610189910977,
+    "stop" : 1610189910978,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5e0ec06ab919a64f",
+  "name" : "test_using_csv_with_different_fields_negative[2-apple-two-tags0]",
+  "time" : {
+    "start" : 1610189910983,
+    "stop" : 1610189910984,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "16342dc083f6c0ed",
+  "name" : "test_using_csv_with_different_fields_negative[one-banana-30-tags1]",
+  "time" : {
+    "start" : 1610189910988,
+    "stop" : 1610189910989,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "59770f08ce109116",
+  "name" : "test_remove_cucumbers_from_the_basket[5-4-1]",
+  "time" : {
+    "start" : 1610189910767,
+    "stop" : 1610189910767,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2706e5c5cba1643a",
+  "name" : "test_basic_duckduckgo_api_query[audi]",
+  "time" : {
+    "start" : 1610189910620,
+    "stop" : 1610189910673,
+    "duration" : 53
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e61c3ba375936760",
+  "name" : "test_basic_zip_search[us-12345-Schenectady]",
+  "time" : {
+    "start" : 1610189910775,
+    "stop" : 1610189910867,
+    "duration" : 92
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6dc96306df9202e9",
+  "name" : "test_basic_duckduckgo_api_query[dodge]",
+  "time" : {
+    "start" : 1610189910470,
+    "stop" : 1610189910605,
+    "duration" : 135
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8a2de9e7849f217",
+  "name" : "test_remove_cucumbers_from_the_basket[1-1-0]",
+  "time" : {
+    "start" : 1610189910771,
+    "stop" : 1610189910772,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

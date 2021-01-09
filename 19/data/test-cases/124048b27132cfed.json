@@ -1,0 +1,102 @@
+{
+  "uid" : "124048b27132cfed",
+  "name" : "test_asdict",
+  "fullName" : "tests.test_tuple_as_dict#test_asdict",
+  "historyId" : "6ea7c2692fde27f62b52a944623154a9",
+  "time" : {
+    "start" : 1610189910996,
+    "stop" : 1610189910997,
+    "duration" : 1
+  },
+  "description" : "_asdict() should return a dictionary.",
+  "descriptionHtml" : "<p>_asdict() should return a dictionary.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_tuple_as_dict"
+  }, {
+    "name" : "host",
+    "value" : "fv-az58-467"
+  }, {
+    "name" : "thread",
+    "value" : "4112-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_tuple_as_dict"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "f2a3fd08f43dc8a",
+        "reportUrl" : "https://77ripdrive.github.io/Python_sandbox.github.io/18//#testresult/f2a3fd08f43dc8a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610130028281,
+          "stop" : 1610130028281,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "e830009bdb47dffb",
+        "reportUrl" : "https://77ripdrive.github.io/Python_sandbox.github.io/17//#testresult/e830009bdb47dffb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610129147759,
+          "stop" : 1610129147760,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "b95a0a7a2b1f9531",
+        "reportUrl" : "https://77ripdrive.github.io/Python_sandbox.github.io/16//#testresult/b95a0a7a2b1f9531",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610128444122,
+          "stop" : 1610128444122,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "5248c48235d2618f",
+        "reportUrl" : "https://77ripdrive.github.io/Python_sandbox/16//#testresult/5248c48235d2618f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610127437913,
+          "stop" : 1610127437913,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "124048b27132cfed.json",
+  "parameterValues" : [ ]
+}
