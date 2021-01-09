@@ -1,12 +1,12 @@
-import logging
-
+import allure
 import pytest
 from jsonschema import Draft7Validator
 
-LOGGER = logging.getLogger(__name__)
 
-
+@allure.feature("Jsonschema validation")
+@allure.story("Validation with correct payload value")
 @pytest.mark.jsonValidation
 def test_using_csv_with_different_fields(set_schema, set_base_payload):
-    result = Draft7Validator(set_schema).is_valid(set_base_payload)
-    assert result == True, LOGGER.info("Schema is valid")
+    with allure.step("Validation with correct  JsonSchema"):
+        result = Draft7Validator(set_schema).is_valid(set_base_payload)
+        assert result == True
