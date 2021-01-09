@@ -1,0 +1,122 @@
+{
+  "uid" : "f6226973fff193f7",
+  "name" : "test_basic_duckduckgo_api_query[dodge]",
+  "fullName" : "tests.steps_defs.test_api_steps#test_basic_duckduckgo_api_query",
+  "historyId" : "48a3645f486af89b9a36794faf0fa5cd",
+  "time" : {
+    "start" : 1610196168800,
+    "stop" : 1610196168905,
+    "duration" : 105
+  },
+  "description" : "/home/runner/work/Python_sandbox.github.io/Python_sandbox.github.io/tests/features/api.feature: Basic DuckDuckGo API Query",
+  "descriptionHtml" : "<p>/home/runner/work/Python_sandbox.github.io/Python_sandbox.github.io/tests/features/api.feature: Basic DuckDuckGo API Query</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('phrase')"
+  }, {
+    "name" : "tag",
+    "value" : "pytest.mark.duckduck_search"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.steps_defs"
+  }, {
+    "name" : "suite",
+    "value" : "test_api_steps"
+  }, {
+    "name" : "host",
+    "value" : "fv-az58-467"
+  }, {
+    "name" : "thread",
+    "value" : "4096-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.steps_defs.test_api_steps"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "phrase",
+    "value" : "'dodge'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "6dc96306df9202e9",
+        "reportUrl" : "https://77ripdrive.github.io/Python_sandbox.github.io/19//#testresult/6dc96306df9202e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610189910470,
+          "stop" : 1610189910605,
+          "duration" : 135
+        }
+      }, {
+        "uid" : "7932e0211021f76a",
+        "reportUrl" : "https://77ripdrive.github.io/Python_sandbox.github.io/18//#testresult/7932e0211021f76a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610130026295,
+          "stop" : 1610130026860,
+          "duration" : 565
+        }
+      }, {
+        "uid" : "b0f4d5870c2a368",
+        "reportUrl" : "https://77ripdrive.github.io/Python_sandbox.github.io/17//#testresult/b0f4d5870c2a368",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610129147192,
+          "stop" : 1610129147270,
+          "duration" : 78
+        }
+      }, {
+        "uid" : "ba7ef191e5c5c6be",
+        "reportUrl" : "https://77ripdrive.github.io/Python_sandbox.github.io/16//#testresult/ba7ef191e5c5c6be",
+        "status" : "broken",
+        "statusDetails" : "requests.exceptions.InvalidSchema: No connection adapters were found for \"{'https://api.duckduckgo.com/'}\"",
+        "time" : {
+          "start" : 1610128443754,
+          "stop" : 1610128443755,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "c15e64f55d261856",
+        "reportUrl" : "https://77ripdrive.github.io/Python_sandbox/16//#testresult/c15e64f55d261856",
+        "status" : "broken",
+        "statusDetails" : "requests.exceptions.InvalidSchema: No connection adapters were found for \"{'https://api.duckduckgo.com/'}\"",
+        "time" : {
+          "start" : 1610127437407,
+          "stop" : 1610127437409,
+          "duration" : 2
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.usefixtures('phrase')", "pytest.mark.duckduck_search" ]
+  },
+  "source" : "f6226973fff193f7.json",
+  "parameterValues" : [ "'dodge'" ]
+}

@@ -1,0 +1,126 @@
+{
+  "uid" : "88098dc0245bf449",
+  "name" : "test_basic_zip_search[us-12345-Schenectady]",
+  "fullName" : "tests.steps_defs.test_zippo_steps#test_basic_zip_search",
+  "historyId" : "f7f77280714b0aa0d5936f76a077b638",
+  "time" : {
+    "start" : 1610196169075,
+    "stop" : 1610196169170,
+    "duration" : 95
+  },
+  "description" : "/home/runner/work/Python_sandbox.github.io/Python_sandbox.github.io/tests/features/zippopo.feature: Basic ZIP search",
+  "descriptionHtml" : "<p>/home/runner/work/Python_sandbox.github.io/Python_sandbox.github.io/tests/features/zippopo.feature: Basic ZIP search</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "pytest.mark.api_service"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('place_name', 'zip_code', 'country_code')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.steps_defs"
+  }, {
+    "name" : "suite",
+    "value" : "test_zippo_steps"
+  }, {
+    "name" : "host",
+    "value" : "fv-az58-467"
+  }, {
+    "name" : "thread",
+    "value" : "4096-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.steps_defs.test_zippo_steps"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "country_code",
+    "value" : "'us'"
+  }, {
+    "name" : "place_name",
+    "value" : "'Schenectady'"
+  }, {
+    "name" : "zip_code",
+    "value" : "12345"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "e61c3ba375936760",
+        "reportUrl" : "https://77ripdrive.github.io/Python_sandbox.github.io/19//#testresult/e61c3ba375936760",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610189910775,
+          "stop" : 1610189910867,
+          "duration" : 92
+        }
+      }, {
+        "uid" : "cfbe6b0f197730ea",
+        "reportUrl" : "https://77ripdrive.github.io/Python_sandbox.github.io/18//#testresult/cfbe6b0f197730ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610130027974,
+          "stop" : 1610130028123,
+          "duration" : 149
+        }
+      }, {
+        "uid" : "56142065e74c2254",
+        "reportUrl" : "https://77ripdrive.github.io/Python_sandbox.github.io/17//#testresult/56142065e74c2254",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610129147415,
+          "stop" : 1610129147602,
+          "duration" : 187
+        }
+      }, {
+        "uid" : "83f0f16ee353ad40",
+        "reportUrl" : "https://77ripdrive.github.io/Python_sandbox.github.io/16//#testresult/83f0f16ee353ad40",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610128443907,
+          "stop" : 1610128444019,
+          "duration" : 112
+        }
+      }, {
+        "uid" : "eff1fd6f33d57a89",
+        "reportUrl" : "https://77ripdrive.github.io/Python_sandbox/16//#testresult/eff1fd6f33d57a89",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610127437566,
+          "stop" : 1610127437807,
+          "duration" : 241
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.usefixtures('place_name', 'zip_code', 'country_code')", "pytest.mark.api_service" ]
+  },
+  "source" : "88098dc0245bf449.json",
+  "parameterValues" : [ "'us'", "'Schenectady'", "12345" ]
+}

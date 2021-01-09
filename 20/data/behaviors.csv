@@ -1,0 +1,4 @@
+"Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"","","","0","0","15","0","0"
+"","Jsonschema validation","Validation with incorrect value","0","0","3","0","0"
+"","Jsonschema validation","Validation with correct payload value","0","0","1","0","0"
