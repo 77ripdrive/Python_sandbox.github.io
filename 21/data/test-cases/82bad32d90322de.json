@@ -1,0 +1,131 @@
+{
+  "uid" : "82bad32d90322de",
+  "name" : "test_basic_duckduckgo_api_query[audi]",
+  "fullName" : "tests.steps_defs.test_api_steps#test_basic_duckduckgo_api_query",
+  "historyId" : "3993ad2635c159a9b8ec274be52bc8d0",
+  "time" : {
+    "start" : 1625053744618,
+    "stop" : 1625053744677,
+    "duration" : 59
+  },
+  "description" : "/home/runner/work/Python_sandbox.github.io/Python_sandbox.github.io/tests/features/api.feature: Basic DuckDuckGo API Query",
+  "descriptionHtml" : "<p>/home/runner/work/Python_sandbox.github.io/Python_sandbox.github.io/tests/features/api.feature: Basic DuckDuckGo API Query</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "pytest.mark.duckduck_search"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('phrase')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.steps_defs"
+  }, {
+    "name" : "suite",
+    "value" : "test_api_steps"
+  }, {
+    "name" : "host",
+    "value" : "fv-az121-43"
+  }, {
+    "name" : "thread",
+    "value" : "2891-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.steps_defs.test_api_steps"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "phrase",
+    "value" : "'audi'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "ba3fd6b53b3df5b9",
+        "reportUrl" : "https://77ripdrive.github.io/Python_sandbox.github.io/20//#testresult/ba3fd6b53b3df5b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610196168918,
+          "stop" : 1610196168972,
+          "duration" : 54
+        }
+      }, {
+        "uid" : "2706e5c5cba1643a",
+        "reportUrl" : "https://77ripdrive.github.io/Python_sandbox.github.io/19//#testresult/2706e5c5cba1643a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610189910620,
+          "stop" : 1610189910673,
+          "duration" : 53
+        }
+      }, {
+        "uid" : "7e302dc4a188f895",
+        "reportUrl" : "https://77ripdrive.github.io/Python_sandbox.github.io/18//#testresult/7e302dc4a188f895",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610130026866,
+          "stop" : 1610130027384,
+          "duration" : 518
+        }
+      }, {
+        "uid" : "d597e21c00b29c28",
+        "reportUrl" : "https://77ripdrive.github.io/Python_sandbox.github.io/17//#testresult/d597e21c00b29c28",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610129147284,
+          "stop" : 1610129147326,
+          "duration" : 42
+        }
+      }, {
+        "uid" : "69bcba469699ed16",
+        "reportUrl" : "https://77ripdrive.github.io/Python_sandbox.github.io/16//#testresult/69bcba469699ed16",
+        "status" : "broken",
+        "statusDetails" : "requests.exceptions.InvalidSchema: No connection adapters were found for \"{'https://api.duckduckgo.com/'}\"",
+        "time" : {
+          "start" : 1610128443826,
+          "stop" : 1610128443827,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "58e3dc0aad3f471f",
+        "reportUrl" : "https://77ripdrive.github.io/Python_sandbox/16//#testresult/58e3dc0aad3f471f",
+        "status" : "broken",
+        "statusDetails" : "requests.exceptions.InvalidSchema: No connection adapters were found for \"{'https://api.duckduckgo.com/'}\"",
+        "time" : {
+          "start" : 1610127437481,
+          "stop" : 1610127437482,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.usefixtures('phrase')", "pytest.mark.duckduck_search" ]
+  },
+  "source" : "82bad32d90322de.json",
+  "parameterValues" : [ "'audi'" ]
+}

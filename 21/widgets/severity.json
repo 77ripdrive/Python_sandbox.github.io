@@ -1,0 +1,191 @@
+[ {
+  "uid" : "84d9c8d3c27db33c",
+  "name" : "test_using_csv_with_different_fields_negative[2-apple-two-tags0]",
+  "time" : {
+    "start" : 1625053745061,
+    "stop" : 1625053745063,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "70df2848c9caaaf8",
+  "name" : "test_replace",
+  "time" : {
+    "start" : 1625053745074,
+    "stop" : 1625053745074,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "18fdfb8eb4b1b5ea",
+  "name" : "test_using_csv_with_different_fields_negative[4-one-20-green]",
+  "time" : {
+    "start" : 1625053745069,
+    "stop" : 1625053745070,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f4724dd379bdd512",
+  "name" : "test_asdict",
+  "time" : {
+    "start" : 1625053745072,
+    "stop" : 1625053745073,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e31a46f18f66f8b",
+  "name" : "test_using_csv_with_different_fields_negative[one-banana-30-tags1]",
+  "time" : {
+    "start" : 1625053745065,
+    "stop" : 1625053745066,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "82bad32d90322de",
+  "name" : "test_basic_duckduckgo_api_query[audi]",
+  "time" : {
+    "start" : 1625053744618,
+    "stop" : 1625053744677,
+    "duration" : 59
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9d585484e473151c",
+  "name" : "test_add_cucumbers_to_a_basket[2-1-3]",
+  "time" : {
+    "start" : 1625053744796,
+    "stop" : 1625053744797,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bd948cdbc7fe48f3",
+  "name" : "test_cerberus_validator_negative",
+  "time" : {
+    "start" : 1625053745057,
+    "stop" : 1625053745058,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "188b5a6ab7bef6b4",
+  "name" : "test_basic_duckduckgo_api_query[dodge]",
+  "time" : {
+    "start" : 1625053744512,
+    "stop" : 1625053744614,
+    "duration" : 102
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a168644a0c1af907",
+  "name" : "test_using_csv_with_different_fields",
+  "time" : {
+    "start" : 1625053745059,
+    "stop" : 1625053745059,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8a2af0561a6a3070",
+  "name" : "test_basic_zip_search[us-12345-Schenectady]",
+  "time" : {
+    "start" : 1625053744812,
+    "stop" : 1625053744958,
+    "duration" : 146
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f3efcf640594ec02",
+  "name" : "test_remove_cucumbers_from_the_basket[8-3-5]",
+  "time" : {
+    "start" : 1625053744800,
+    "stop" : 1625053744801,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b84e1f996ef373b2",
+  "name" : "test_remove_cucumbers_from_the_basket[5-4-1]",
+  "time" : {
+    "start" : 1625053744804,
+    "stop" : 1625053744805,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "248ee836e74bff6f",
+  "name" : "test_remove_cucumbers_from_the_basket[1-1-0]",
+  "time" : {
+    "start" : 1625053744808,
+    "stop" : 1625053744809,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "36bd9690e8f70eaa",
+  "name" : "test_basic_zip_search[nl-3825-Vathorst]",
+  "time" : {
+    "start" : 1625053744961,
+    "stop" : 1625053745049,
+    "duration" : 88
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6d7e221e526cf498",
+  "name" : "test_cerberus_validator_base",
+  "time" : {
+    "start" : 1625053745053,
+    "stop" : 1625053745056,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5f978ed0d862b685",
+  "name" : "test_add_cucumbers_to_a_basket[3-4-7]",
+  "time" : {
+    "start" : 1625053744792,
+    "stop" : 1625053744793,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "17dc6044c11af6f5",
+  "name" : "test_basic_duckduckgo_api_query[toyota]",
+  "time" : {
+    "start" : 1625053744681,
+    "stop" : 1625053744784,
+    "duration" : 103
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5e93e12856c25184",
+  "name" : "test_add_cucumbers_to_a_basket[0-3-3]",
+  "time" : {
+    "start" : 1625053744788,
+    "stop" : 1625053744789,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
